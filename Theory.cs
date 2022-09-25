@@ -55,6 +55,14 @@ namespace _3rd_Lab
             // LinkedList is used seldom
 
             #endregion
+                
+            #region Tuples
+
+            //It is bounded links to several variables in the fixed order:
+            (string name, int age, double height) = ("Vasiliy", 20, 1.89);
+            (int[] marks, int average) = ({1,2,3,4,5}, 3);
+            
+            #endregion            
         }
     }
 }
