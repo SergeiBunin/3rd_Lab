@@ -21,7 +21,11 @@ namespace _3rd_Lab
              * 
              * Queue<type of data> - like in the shop or on escalator in the subway. You can add to the end, look the first element or take the first element.
              * 
-             * List<type of data> - linked array when you don't know the limit of your array and ought to add or remove elements sometimes (linked array)
+             * ArrayList - is a non-generic collection of objects whose size increases dynamically. It is the same as Array except that its size increases dynamically.
+             * It is a common array for different types. You can keep there int, double, string etc in one array.
+             *
+             * List<type of data> - a collection of strongly typed objects that can be accessed by index and having methods for sorting, searching, and modifying list. 
+             * It is the generic version of the ArrayList/ Use it when you don't know the limit of your array and ought to add or remove elements sometimes (linked array)
              * the PC create an array and when you want to add new element, it create a new array and copy all existing elements there.
              *
              * LinkedList<type of data> - array with a reference to the next and previous element (twice-linked array)
